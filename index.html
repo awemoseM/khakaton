@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./img/free-icon-airplane-8154266.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="modal.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+  
+    <header>
+        <div class="logo">NICHEGO</div>
+        
+        <div class="hamburger">
+            
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li>
+                    <a href="" class="active-home">Home</a>
+                </li>
+                <li><a href="#pictures">pictures</a></li>
+                <li><a href="#modal">modal</a></li>
+                <li><a href="#accordionSection">accrodion</a></li>
+                <li><a href="#caaard">cards</a></li>
+            </ul>
+        </div>
+        <div class="backdrop"></div>
+    </header>
+
+    <section>
+        <img class="los" src="https://images.genius.com/3b383843dd86eba11480004fbed1e067.1000x800x1.jpg" alt="">
+    </section>
+
+    <section id="pictures">
+        <div class="container">
+             
+             <h2>Citys</h2>
+             <select class="categories__choise"></select>
+             <h3></h3>
+             
+             <form id="form_search">
+                 <input type="text" class="search">
+                 <button >Search</button>
+                 <button class="clear">X</button>
+             </form>
+ 
+             <div class="outputt"></div>
+ 
+         </div> 
+     </section>
+
+
+
+    
+
+
+
+
+
+
+<section id="modal">
+<div class="css-modal-details">    
+    <details>
+      
+        <form id="telegram__apply">  
+            <input type="text" id="inputMessage">
+            <input type="number" id="inputNumber">
+            <button type="submit">Apply to Telegram</button>
+            <button type="button" class="check">modal</button>
+        </form>
+    </details>
+    <div> <img class="modal" src="https://www.quinta.ru/upload/iblock/def/yqc5vtdzpfhpa4bchgv16p947ooqblp2/marina-bay-of-singapore-g1cad93e02_1920.jpg" alt=""></div>
+</section>
+ <!-- <section id="accordionSection"> -->
+  <!-- <div class="container"> -->
+    <!-- <div class="accordion">
+      <div class="row-output"></div>
+    </div>
+  </div>
+</section>  -->
+
+
+
+
+
+<div class="product-container">
+  <div class="product-list">
+
+    <div class="product" onclick="showProductDetails(1)">
+      <h3>Товар 1</h3>
+      <img src="https://avatars.mds.yandex.net/i?id=1f1bef9dc2d6119b0d9d69982d2797e262bf34ea-9065783-images-thumbs&n=13" alt="">
+      <p>Описание товара 1</p>
+    </div>
+
+    <div class="product" onclick="showProductDetails(2)">
+      <h3>Товар 2</h3>
+      <img src="https://i.pinimg.com/736x/34/0f/37/340f37ae4f36826f3571a2f9c64544ec.jpg" alt="">
+      <p>Описание товара 2</p>
+    </div>
+
+    <div class="product" onclick="showProductDetails(3)">
+      <h3>Товар 3</h3>
+      <img src="https://w.forfun.com/fetch/39/399f74771a37da97630f86e85696f882.jpeg" alt="">
+      <p>Описание товара 3</p>
+    </div>
+
+    <div class="product" onclick="showProductDetails(4)">
+      <h3>Товар 4</h3>
+      <img src="https://avatars.mds.yandex.net/i?id=6d7f1d72415579d050e5ddfa6c59697b-7042922-images-thumbs&n=13" alt="">
+      <p>Описание товара 4</p>
+    </div>
+
+    <div class="product" onclick="showProductDetails(5)">
+      <h3>Товар 5</h3>
+      <img src="https://i.pinimg.com/474x/d1/4f/66/d14f66ddf892b7406a2113e022698a6e.jpg" alt="">
+      <p>Описание товара 5</p>
+    </div>
+
+    <div class="product" onclick="showProductDetails(6)">
+      <h3>Товар 6</h3>
+      <img src="https://klike.net/uploads/posts/2019-05/1556705582_1.jpg" alt="">
+      <p>Описание товара 6</p>
+    </div>
+
+    <div class="product" onclick="showProductDetails(7)">
+      <h3>Товар 7</h3>
+      <img src="https://ic.pics.livejournal.com/shakko.ru/2710882/3965577/3965577_original.jpg" alt="">
+      <p>Описание товара 7</p>
+    </div>
+
+    <div class="product" onclick="showProductDetails(8)">
+      <h3>Товар 8</h3>
+      <img src="https://img2.akspic.ru/previews/3/5/5/3/7/173553/173553-voda-lazurnyj-vodoem-podzemnye_vody-morskaya_biologiya-500x.jpg" alt="">
+      <p>Описание товара 8</p>
+    </div>
+
+    <div class="product" onclick="showProductDetails(9)">
+      <h3>Товар 9</h3>
+      <img src="https://img3.akspic.ru/previews/9/6/1/9/6/169169/169169-ty_zasluzhivaesh_vsyacheskogo_schastya-schaste-strah-voda-polety_na_vozdushnom_share-500x.jpg" alt="">
+      <p>Описание товара 9</p>
+    </div>
+
+    <div class="product" onclick="showProductDetails(10)">
+      <h3>Товар 10</h3>
+      <img src="https://img2.akspic.ru/previews/8/9/4/1/7/171498/171498-betmen-supergeroj-komiksy_dc-komiksy-kino-500x.jpg" alt="">
+      <p>Описание товара 10</p>
+    </div>
+    <!-- Остальные товары -->
+  </div>
+
+  <div id="selected-product">
+    <!-- Здесь будет отображаться выбранный товар -->
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+
+
+  
+<section id="caaard">
+  <div class="cardd-container">
+    <div class="cardd">
+        <div class="face face-1">
+            <img src="https://traveltimes.ru/wp-content/uploads/2021/11/dubai2.jpg" alt="" />
+            <h3>Dubai</h3>
+        </div>
+        <div class="face face-2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem?</p>
+        </div>
+    </div>
+    <div class="cardd">
+        <div class="face face-1">
+            <img src="https://www.chinaworld.ru/upload/iblock/a16/m_162679.jpg" alt="" />
+            <h3>Japan</h3>
+        </div>
+        <div class="face face-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, illo.</p>
+        </div>
+    </div>        
+    <div class="cardd">
+        <div class="face face-1">
+            <img src="https://cdn.bookaway.com/media/files/5d81e92dca76641397441bc7.jpeg" alt="" />
+            <h3>Singapore</h3>
+        </div>
+        <div class="face face-2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ea.</p>
+        </div>
+    </div> 
+    </div    
+</section>
+
+
+<!-- день и ночь -->
+
+<section id="dark">
+    <div class="container">
+<label class="dark-version">
+    <input type="checkbox" onchange="toggledark()" id="toggledark">
+    <span class="toggledark round"></span>
+</label>
+</div>
+</section>
+
+
+<!-- день и ночь -->
+
+<section id="swiper">
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="https://sportishka.com/uploads/posts/2022-04/1650693111_30-sportishka-com-p-krasivii-gorod-krasivo-foto-36.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="https://sportishka.com/uploads/posts/2022-04/1650693010_11-sportishka-com-p-krasivii-gorod-krasivo-foto-14.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="https://modelist86.ru/wp-content/uploads/2020/06/58189_1-e1592899498364.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="https://vsegda-pomnim.com/uploads/posts/2022-04/1649145714_58-vsegda-pomnim-com-p-priroda-shveitsarii-foto-74.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="https://s1.1zoom.ru/big0/801/Switzerland_Houses_Sky_501739.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663149597_16-mykaleidoscope-ru-p-vankuver-kanada-pinterest-19.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="http://vagamundeando.co/wp-content/uploads/2018/06/IMG_7262.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="https://traveltimes.ru/wp-content/uploads/2021/05/honolulu-aerial-5c426b2346e0fb0001d0677d-2048x1367.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="https://avatars.dzeninfra.ru/get-zen_doc/197911/pub_5f2d116ed9fafc42fb7e2a95_5f2e957a55628e0ccf82903e/scale_1200" alt=""></div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+</section>
+
+
+
+<!-- contact section -->
+<div class="container">
+  <h2>Contacts</h2>
+  <section id="contacts" class="contacts-section">
+    <div id="map">
+      <script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adfdfa60acc4d3ffbc2d8d772d63fd99fe7f9092373c61b270ee7ae0f077d3039&amp;width=749&amp;height=639&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+    <div class="contact-details">
+      <h2>Контакты</h2>
+      <ul>
+        <li>
+          <a href="tel:+996502371317">
+            <img src="https://w7.pngwing.com/pngs/668/335/png-transparent-telephone-computer-icons-vektor-miscellaneous-blue-cdr.png" alt="Phone Icon">
+            <span>+996502371317</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://api.whatsapp.com/send/?phone=%2B996502371317&text&type=phone_number&app_absent=0">
+            <img src="https://www.innopay.com/sites/default/files/media-images/Whatsapp%20smaller.jpg" alt="WhatsApp Icon">
+            <span>+996 501 798 709</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://t.me/+996502371317">
+            <img src="https://gumlet.assettype.com/swarajya%2F2022-01%2Ffce93741-c116-4068-8b2b-701d371ab651%2FTelegram.png?auto=format%2Ccompress" alt="Telegram Icon">
+            <span>Telegram</span>
+          </a>
+        </li>
+        <li>
+          <img src="https://www.clipartmax.com/png/middle/151-1517460_icon-contact-flat-web-business-symbol-blue-location-pin-icon-png.png" alt="Location Icon">
+          <span>ул. Раззакова, 32</span>
+        </li>
+        <li><img src="./img/qrcode_chrome (1).png" alt=""></li>
+      </ul>
+    </div>
+  </section>
+</div>
+<!-- contact section -->
+
+
+<section id="accordionSection">
+  <div class="container">
+    <div class="accordion">
+      <div class="row output"></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- footer -->
+
+<section id="footer">
+  <div class="container">
+  
+
+  <div>
+    <h1>NECHEGO</h1>
+    <ul>
+      <li><a href="https://www.instagram.com/?hl=ru"><img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png" alt=""></a></li>
+      <li><a href="https://web.telegram.org/k/"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111646.png" alt=""></a></li>
+      <li class="qr"><img src="./img/qrcode_chrome (1).png" alt=""></li>
+    </ul>
+  </div>
+</div>
+</section>
+
+
+
+<!-- footer -->
+
+
+
+
+
+
+
+
+  <script src="./accordion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
